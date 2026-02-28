@@ -1,0 +1,139 @@
+*{
+  
+}
+
+.panel
+{
+font-size:19pt; 
+font-family: Verdana, Geneva, sans-serif; 
+}
+
+/*Main Page Section Animation English  ******************************************************************/
+
+ul.rounded {
+    margin-left: -10px;
+   /* padding: 0;*/
+    width:95%;
+
+    border-radius: 1em;
+    /*box-shadow: 2px 2px 4px #666;*/
+  }
+
+/*bullet closer to text*/
+ ul.rounded li:before {
+        /*content: "";*/
+        /*display: inline-block;*/
+     
+        /*margin-left:-20px;*/ 
+    }
+
+    ul.rounded li {
+        /*display: block;*/
+      /*width:90%;*/
+        margin: 0 0 1px;
+        padding: 4px 10px; /*  */
+        text-align: left;
+        transition: 0.4s;
+        list-style-image: url("/images/arrow.jpg");
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:12px;
+        line-height:20px; /* Line Height */
+    }
+  ul.rounded li:first-child {
+    /*border-radius: 1em 1em 0 0;*/
+  }
+  ul.rounded li:last-child {
+    /*border-radius: 0 0 1em 1em;*/
+  }
+  ul.rounded li:hover {
+    padding-left: 16px;
+   
+   
+    /*background: #efefef;*/
+    /*list-style-image: url("../images/arrow1.jpg");*/
+  }
+
+   ul.rounded img:hover {
+    padding-left: 20px;
+    color:black;
+    
+  }
+/*Main Page Section Animation Urdu  ******************************************************************/
+
+ul.roundedUrdu {
+    /* margin-right: 0px;
+	    padding: 0;*/
+    width: 95%;
+    border-radius: 1em;
+    /*box-shadow: 2px 2px 4px #666;*/
+    direction: rtl;
+
+  }
+
+/*bullet closer to text*/
+ ul.roundedUrdu li:before {
+        /*content: "";*/
+        /*display: inline-block;*/
+     
+        /*margin-left:-20px;*/ 
+    }
+
+    ul.roundedUrdu li {
+      /*  display: block;
+      width:90%;*/
+	  max-width:97%;
+      /*  margin: 0 0 1px;
+        padding: 0px 0px 0px 0px; */  
+		
+		
+        transition: 0.4s;
+        list-style-image: url("../urdu/images/arrow1.jpg");		
+		
+        line-height:30px; /* Line Height */
+    }
+  ul.roundedUrdu li:first-child {
+    /*border-radius: 1em 1em 0 0;*/
+  }
+  ul.roundedUrdu li:last-child {
+    /*border-radius: 0 0 1em 1em;*/
+  }
+  ul.roundedUrdu li:hover {
+    padding-right: 10px;
+
+  /* list-style-image: url("../urdu/images/arrow1-1.jpg");	
+   
+    background: #efefef;*/
+    /*list-style-image: url("../images/arrow1.jpg");*/
+  }
+
+   ul.roundedUrdu img:hover {
+    padding-right: 20px;
+    color:black;
+    
+  }
+
+/* Image Zoom **************************************************************************************/
+
+  img.zoom{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+img.zoom:hover {
+	-webkit-transform: scale(1.06);
+	transform: scale(1.06);
+       }
+	   
+img.boxhov:hover{
+	 
+	box-shadow: 0 1px 5px #ffffff;
+	/* padding-left: 20px; */
+	}	   
+	
+div.box1:hover{
+            /*border:1px solid lightgrey;*/ 
+            border-bottom: 0 none;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.46);
+	}	
